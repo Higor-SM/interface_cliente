@@ -34,10 +34,10 @@ function listPerfil(req, res) {
 
 function listProjectHandler(req, res) {
     /* Os dados a seguir, em uma aplicação real, deveriam vir de um BD */
-    let projeto_1 = new Projeto("software", "HTML,CSS e PHP", "07/09/2020", "29/11/2020");
-    let projeto_2 = new Projeto("software", "HTML,CSS e PHP", "08/03/2021", "06/06/2021");
-    let projeto_3 = new Projeto("software", "HTML,CSS e Java", "30/08/2021", "28/11/2021");
-    let projeto_4 = new Projeto("software", "React Native", "25/03/2021", "05/06/2021");
+    let projeto_1 = new Projeto("CPU - Centro de Programação Universitário", "HTML,CSS e PHP", "07/09/2020", "29/11/2020");
+    let projeto_2 = new Projeto("Projeto Dashboard", "HTML,CSS e PHP", "08/03/2021", "06/06/2021");
+    let projeto_3 = new Projeto("IONIC-Health-Project", "HTML,CSS e Java", "30/08/2021", "28/11/2021");
+    let projeto_4 = new Projeto("TecSoja", "React Native", "25/03/2021", "05/06/2021");
     let projetos = [];
     projetos.push(projeto_1);
     projetos.push(projeto_2);

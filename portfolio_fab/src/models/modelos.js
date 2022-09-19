@@ -1,6 +1,6 @@
 class Projeto {
-    constructor(tipo, tecnologia, inicio, fim) {
-        this.tipo = tipo;
+    constructor(projnome, tecnologia, inicio, fim) {
+        this.projnome = projnome;
         this.tecnologia = tecnologia;
         this.inicio = inicio;
         this.fim = fim;
