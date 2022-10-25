@@ -1,19 +1,16 @@
-# Exemplificando uma visão com a tecnologia de template EJS
+# Exemplo de cliente com acesso somente à leitura do serviço de persistência de dados.
 
-## Autor: Fabrício G. M. de Carvalho, Ph.D
+# Autor: Fabrício G. M. de Carvalho, Ph. D.
 
-Estrutura de pastas:
+Para executar o sistema:
 
-* src\models: Nesse caso um modelo simples de uma classe que representa um projeto.
-* src\views: Templates, incluindo a base para headers, footers e conteúdo principal.
-* src\public: Arquivos publicamente acessíveis: imagens, css, js (front end), etc.
-
-Para executar a aplicação, dentro da pasta src, da linha de comando digitar:
-
+1. Primeiro execute o servidor de dados (projeto web_service)
+1. Na raiz do projeto, fora da pasta src/, execute os comandos:
 ```console
-npm install
+    npm install
 ```
 ```console
-node app.js
-```
-A seguir, acessar no navegador: http://localhost:5000/
+    npm start
+``` 
+1. Espere aparecer a mensagem informando que o servidor de aplicação está sendo executado na porta 5002.
+1. Acessar http://localhost:5002/ e verificar se aparece uma interface com listagem de projetos.

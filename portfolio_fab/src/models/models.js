@@ -1,11 +1,12 @@
+
 class Projeto {
-    constructor(projnome, tecnologia, inicio, fim) {
-        this.projnome = projnome;
+    constructor(titulo, tipo, tecnologia, inicio, fim){
+        this.titulo = titulo;
+        this.tipo = tipo;
         this.tecnologia = tecnologia;
         this.inicio = inicio;
         this.fim = fim;
-
-    }
+   }
 }
 
 class User {
@@ -21,8 +22,3 @@ module.exports = {
     Projeto: Projeto,
     User: User
 }
-
-
-
-
-

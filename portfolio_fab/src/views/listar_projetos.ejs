@@ -5,8 +5,9 @@
                 <li class="li-prof">
                     <!--criei uma classe para facilitar na estilização, e diferenciar das minhas li e ul-->
                     <span class="descritor">Nome do Projeto:</span>
-                    <%=lista_projetos[i].projnome %><br />
-                        <% if(lista_projetos[i].projnome=="software" ) { %>
+                    <%=lista_projetos[i].titulo %><br />
+                        <% if(lista_projetos[i].titulo=="software" ) { %>
+                            <span class="descritor">Tipo de Projeto:</span> <%=lista_projetos[i].tipo %><br/>            
                             <span class="descritor">Tecnologia:</span>
                             <%=lista_projetos[i].tecnologia %><br />
                                 <% } %>
